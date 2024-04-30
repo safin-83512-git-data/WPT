@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Registration</title>
+</head>
+
+<body>
+    <center>
+    <div>
+        <h1 style="text-align: center;"><u>Registration Form</u></h2>
+            <div style="display: flex;">
+                <div>
+                    <img src="sunbeam.png" alt="" height="80%" width="80%">
+                </div>
+                <div style="margin-right: 10%; height: 70%; width: 70%;">
+                    <form action="#">
+                        <label for="">Name</label>
+                        <input type="text" id="fname" name="fname" placeholder="enter a name" required><br><br>
+                        <label for="lname">Date:</label>
+                        <input type="date" id="lname" name="lname" required><br><br>
+
+                        <label for="lname">email</label>
+                        <input type="email" name="email" required placeholder="enter a email"><br><br>
+
+                        <label for="lname">Password</label>
+                        <input type="password" name="password" required placeholder="enter a password"><br><br>
+
+                        <label for="address">Address:</label>
+                       <table>
+                        
+                        <tr>
+                        
+                          <td>
+                            
+                                <select id="state">
+                            <option value="Maharastra">Maharastra</option>
+                            <option value="Goa">Goa</option>
+                            <option value="Up">Up</option>
+                            <option value="mp">MP</option>
+                           
+                             </select>
+                             <p>State</p>
+                          </td>
+                           <td>
+                            <select id="dist">
+                                <option value="Maharastra">Pune</option>
+                                <option value="Ng">Nagpur</option>
+                                <option value="Kolh">kolhapur</option>
+                                <option value="Latur">latur</option>
+                               
+                                 </select>
+                                 <p>District</p>
+                           </td>
+                           <td>
+                            <select id="city">
+                                <option value="Maharastra">Karad</option>
+                                <option value="hinjewadi">hinjewadi</option>
+                                <option value="Ur">Urli</option>
+                                <option value="bn">Baner</option>
+                               
+                                 </select>
+                                 <p>City</p>
+                           </td>
+                        </tr>
+                       </table>
+                       <label for="">Gender :</label>
+                       <label for="">Male</label>
+                       <input type="radio">
+                       <label for="">female</label>
+                       <input type="radio">
+                       <br><br>
+                       <label for="">Upload photo</label>
+                       <input type="file" name="img">
+                      <br><br>
+                      <p>Select your course</p>
+                      <select id="">
+                          <option value="">DAC</option>
+                          <option value="">DMC</option>
+                          <option value="">DBDA</option>
+                      </select>
+                        <br><br>
+                        <input type="submit" value="Register" required>
+                        <input type="submit" value="login" required>
+                    </form>
+
+
+                </div>
+            </div>
+    </div>
+</center>
+
+
+</body>
+
+</html>
