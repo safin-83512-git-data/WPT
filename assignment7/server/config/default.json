@@ -1,0 +1,9 @@
+{
+    "portno": 9999,
+    "sqlport": 3306,
+    "host": "localhost",
+    "database": "airbnb_db",
+    "username": "sumana",
+    "password": "root",
+    "encryptionKey": "sunbeam765756546475757466474####%%66688"
+}
